@@ -9,7 +9,7 @@ docker run -it --rm         \
   --volume ~/.s3cfg:/.s3cfg \
   --user $(id -u)           \
   frew/s3cmd                \
-  configure
+  --configure
 
 docker run -it --rm         \
   --volume ~/.s3cfg:/.s3cfg \
